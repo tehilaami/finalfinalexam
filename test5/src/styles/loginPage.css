@@ -1,0 +1,35 @@
+.wilingApp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wilingApp h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.wilingApp button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.wilingApp .addWilling {
+    background-color: #4caf50;
+    color: white;
+}
+
+.wilingApp .findWilling {
+    background-color: #2196f3;
+    color: white;
+}
+
+.wilingApp button:hover {
+    opacity: 0.8;
+}

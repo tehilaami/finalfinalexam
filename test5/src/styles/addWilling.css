@@ -1,0 +1,41 @@
+.addVolunteering {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.addVolunteering h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.addVolunteering label {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.addVolunteering input,
+.addVolunteering textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.addVolunteering button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+.addVolunteering button:hover {
+    opacity: 0.8;
+}

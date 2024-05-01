@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    /* Light cyan background */
+    color: #0277bd;
+    /* Dark cyan text */
+    margin: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #d81b60;
+    /* Deep pink color for the header */
+}
+
+input,
+button {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #0277bd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button.create {
+    float: left;
+    /* Position the 'Create' button on the left */
+    background-color: #29b6f6;
+    /* Light blue */
+    color: white;
+}
+
+button.fetch {
+    float: right;
+    /* Position the 'Display' button on the right */
+    background-color: #4db6ac;
+    /* Teal */
+    color: white;
+}
+
+button:hover {
+    filter: brightness(85%);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}

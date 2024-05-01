@@ -1,0 +1,40 @@
+.findVolunteering {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.findVolunteering h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.findVolunteering label {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.findVolunteering input,
+.findVolunteering select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.findVolunteering button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+.findVolunteering button:hover {
+    opacity: 0.8;
+}
